@@ -7,20 +7,20 @@ body {
 }
 
 h1 {
-	color: rgb (0,255,255);
+	color: rgb(2,132,130);
 
 }
 
-h3 {
-	color: rgb (128,128,0);  
+h2 {
+	color: #ffd700;  
 }
 
 nav {
-	background-color: #ffffff;
+	background-color: #808080;
 }
 
 nav a {
-	background-color: #ff5070;
+	background-color: #ffbf00;
 	color: #ffffff;
 	padding: 35px;
 	display: block;
@@ -50,7 +50,7 @@ display: inline-block;
 }
 
 .card {
-	color: yellow;
+color: yellow;
 height: 200px;
 width: 150px;
 border: 1px black;
@@ -72,5 +72,5 @@ hr {
 }
 
 footer {
-	background-color: #ffffff;
+	background-color: #808080;
 }
