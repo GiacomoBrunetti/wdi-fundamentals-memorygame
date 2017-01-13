@@ -18,3 +18,20 @@ if ( ! cardTwo === cardFour ) {
 	window.alert ("You found a match!");
 
 } 
+
+
+var gameBoard= document.getElementById('game-board');
+
+var createCards= function() { 
+
+
+for ( var i = 1; i <= 4; i += 1){
+
+var newCard= document.createElement('div');
+
+newCard.className = 'card' ;
+
+gameBoard.appendChild(newCard);
+}
+}
+createCards();
