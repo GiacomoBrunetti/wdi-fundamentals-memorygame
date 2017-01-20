@@ -8,7 +8,6 @@ body {
 
 h1 {
 	color: rgb(2,132,130);
-
 }
 
 h2 {
@@ -25,12 +24,10 @@ nav a {
 	padding: 35px;
 	display: block;
 	float: left;
-
 }
 
 a:hover {
 	background-color: #ee5f3c;
-
 }
 
 .clearfix:after {
@@ -40,12 +37,20 @@ a:hover {
         clear: both;
         height: 0;
         font-size: 0;
+}
 
+button {
+	background-color: #ffbf00;
+	color: #ffffff;
+}
+
+button:hover {
+	background-color: #ee5f3c;
 }
 
 .board {
-height: 50%;
-width: 50%;
+height: 70%;
+width: 70%;
 display: inline-block;
 }
 
@@ -54,21 +59,24 @@ color: yellow;
 height: 200px;
 width: 150px;
 border: 1px solid black;
-border-radius: 10px;
+border-radius: 22px;
 background-color: #ffff00;
-float: left;
+float: right;
 margin: 8%;
  }
 
 .name {
 	color: #ff5070;
-
 } 
+
+img {
+	height: 200px;
+	width: 150px;
+}
 
 hr {
 	border-top: 2px dotted black;
 	border-bottom: 2px dotted black;
-
 }
 
 footer {
